@@ -6,8 +6,19 @@
 	},
 	"item": [
 		{
-			"name": "Create",
-			"request": {
+			"name"   : "P.H.Gamani Wasantha William",
+			"address": "No.149/9,Paligedara,Makuluduwa,Piliyandala."
+                        "email"  : "phgww2015@gmail.com
+			"date of brith": "1955.12.27"
+			"gender" : "male"
+			"age"    : "69"
+			"card holder name": "P.H.G.W.William"
+			"card number": "4143 9500 0017"
+			"expiry date": "10/29"
+			"CVV"    : "896"
+			
+			
+			{
 				"auth": {
 					"type": "bearer",
 					"bearer": [
@@ -19,7 +30,7 @@
 					]
 				},
 				"method": "POST",
-				"header": [
+				"header": ["customer"
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
